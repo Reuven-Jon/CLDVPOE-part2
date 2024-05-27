@@ -1,0 +1,101 @@
+﻿@{
+    @model CLDVPOE_part2.Pages.Home.IndexModel
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <h1>Welcome to KhumaloCraft</h1>
+        <p>
+            KhumaloCraft Emporium is a global e-commerce platform showcasing handcrafted products by artisans from around the world. Our mission is to connect these talented creators with a discerning audience, offering a unique shopping experience.
+        </p>
+    </section>
+
+    <!-- Compare Current Workflow with Proposed Solution -->
+    <section id="workflow-comparison">
+        <h2>Current Workflow vs. Proposed Solution</h2>
+        <div class="workflow-comparison">
+            <div class="current-workflow">
+                <h3>Current Workflow</h3>
+                <ul>
+                    <li>Manual product listing and updates</li>
+                    <li>Limited reach to local markets</li>
+                    <li>Inconsistent user experience</li>
+                    <li>Manual order processing</li>
+                </ul>
+            </div>
+            <div class="proposed-solution">
+                <h3>Proposed Solution</h3>
+                <ul>
+                    <li>Automated product management</li>
+                    <li>Global reach through a scalable platform</li>
+                    <li>Consistent and user-friendly interface</li>
+                    <li>Automated order processing and notifications</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits of Using Cloud Computing -->
+    <section id="cloud-computing-benefits">
+        <h2>Benefits of Using Cloud Computing</h2>
+        <p>
+            Cloud computing offers numerous advantages for KhumaloCraft Emporium:
+        </p>
+        <ul>
+            <li>Reduced IT costs with pay-as-you-go services</li>
+            <li>Improved collaboration and remote work capabilities</li>
+            <li>Enhanced security with advanced protection features</li>
+            <li>Automatic software updates and maintenance</li>
+        </ul>
+    </section>
+
+    <!-- Scalability -->
+    <section id="scalability">
+        <h2>Scalability</h2>
+        <p>
+            Our platform is designed to grow with KhumaloCraft Emporium. Using Azure's scalable services, we can easily accommodate an increasing number of products, artisans, and customers without compromising performance or user experience.
+        </p>
+    </section>
+
+    <!-- Accessibility -->
+    <section id="accessibility">
+        <h2>Accessibility</h2>
+        <p>
+            KhumaloCraft Emporium is committed to providing an accessible shopping experience for everyone. Our web application is designed to meet global accessibility standards, ensuring that all users can navigate and use our platform with ease.
+        </p>
+    </section>
+</div>
+
+<style>
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+    }
+    section {
+        margin-bottom: 40px;
+    }
+    h1, h2 {
+        color: #2c3e50;
+    }
+    p, ul {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #34495e;
+    }
+    .workflow-comparison {
+        display: flex;
+        justify-content: space-between;
+    }
+    .current-workflow, .proposed-solution {
+        width: 45%;
+    }
+    ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+</style>
+
